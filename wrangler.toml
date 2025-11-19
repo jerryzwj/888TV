@@ -57,4 +57,4 @@ value = "--prefix=/opt/buildhome/.asdf/installs/nodejs/18.17.1/.npm"
 [vars]
 USERNAME = "admin"
 PASSWORD = "p@ssword"
-NEXT_PUBLIC_ENABLE_REGISTER = "true"
+NEXT_PUBLIC_ENABLE_REGISTER = "false"
