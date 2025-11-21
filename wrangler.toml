@@ -1,7 +1,6 @@
 name = "katelyatv"
 compatibility_date = "2024-09-01"
 
-compatibility_flags = ["nodejs_compat"]
 [env.production]
 name = "katelyatv"
 
@@ -46,20 +45,9 @@ database_name = "katelyatv-db"
 database_id = "2aeec80f-19e7-4986-b2ee-3199af3d57ad"
 
 [build]
-command = "pnpm install --frozen-lockfile && pnpm run pages:build"
+command = "pnpm pages:build"
 environment = { NODE_VERSION = "18" }
 
 [[build.environment_variables]]
-NEXT_PUBLIC_STORAGE_TYPE = "d1"
 name = "NPM_FLAGS"
 value = "--prefix=/opt/buildhome/.asdf/installs/nodejs/18.17.1/.npm"
-
-[[d1_databases]]
-binding = "DB"
-database_name = "katelyatv-db"
-database_id = "2aeec80f-19e7-4986-b2ee-3199af3d57ad"
-
-[vars]
-USERNAME = "admin"
-PASSWORD = "p@ssword"
-NEXT_PUBLIC_ENABLE_REGISTER = "false"
