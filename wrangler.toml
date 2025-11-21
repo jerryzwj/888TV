@@ -43,7 +43,7 @@ NODE_ENV = "production"
 [[env.production.d1_databases]]
 binding = "DB"
 database_name = "katelyatv-db"
-database_id = "1f80f214-2726-4a6b-8263-d3efaeb4dee3"
+database_id = "2aeec80f-19e7-4986-b2ee-3199af3d57ad"
 
 [build]
 command = "pnpm install --frozen-lockfile && pnpm run pages:build"
@@ -57,7 +57,7 @@ value = "--prefix=/opt/buildhome/.asdf/installs/nodejs/18.17.1/.npm"
 [[d1_databases]]
 binding = "DB"
 database_name = "katelyatv-db"
-database_id = "1f80f214-2726-4a6b-8263-d3efaeb4dee3"
+database_id = "2aeec80f-19e7-4986-b2ee-3199af3d57ad"
 
 [vars]
 USERNAME = "admin"
